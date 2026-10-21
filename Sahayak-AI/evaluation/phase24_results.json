@@ -1,0 +1,12 @@
+{
+  "cuda_smoke_test": "PASSED",
+  "qwen_loading": "SUCCESS",
+  "qwen_forward_pass": "SUCCESS",
+  "qwen_generation": "SUCCESS",
+  "generation_events_written": 1,
+  "load_error": null,
+  "forward_error": null,
+  "generation_error": null,
+  "device_map": "auto",
+  "dtype": "bfloat16"
+}

@@ -1,0 +1,26 @@
+{
+  "os": "Windows",
+  "os_release": "11",
+  "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\opencode\\1\\Sahayak OS\\Sahayak-AI\\venv\\Scripts\\python.exe",
+  "cpu": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "system_ram_gb": 15.26,
+  "virtual_env": "C:\\opencode\\1\\Sahayak OS\\Sahayak-AI\\venv",
+  "pytorch": {
+    "installed": true,
+    "version": "2.14.0+cpu",
+    "cuda_available": false,
+    "cuda_version": "N/A",
+    "gpu_count": 0,
+    "gpu_name": "N/A",
+    "vram_gb": "N/A"
+  },
+  "transformers": {
+    "installed": true,
+    "version": "5.17.0"
+  },
+  "accelerate": {
+    "installed": true,
+    "version": "1.15.0"
+  }
+}

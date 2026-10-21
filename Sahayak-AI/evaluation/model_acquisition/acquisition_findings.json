@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "os": "Windows",
+    "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\OM CHAVAN\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "gpu_name": "NVIDIA GeForce RTX 5050",
+    "gpu_vram_gb": 8.0,
+    "pytorch_version": "2.4.1+cu124",
+    "transformers_version": "5.17.0"
+  },
+  "candidates": {
+    "Qwen3-4B": {
+      "exact_identifier": "Qwen/Qwen3-4B",
+      "repository_reachable": true,
+      "metadata_obtainable": true,
+      "weights_obtainable": false,
+      "memory_feasibility": "MARGINAL_REQUIRES_QUANTIZATION",
+      "load_status": "FAILED",
+      "generation_status": "NOT_ATTEMPTED",
+      "failure_reason": "DOWNLOAD_BLOCKED: Connection timed out or gated access prevented weight retrieval."
+    },
+    "Phi-4-mini": {
+      "exact_identifier": "microsoft/Phi-4-mini",
+      "repository_reachable": true,
+      "metadata_obtainable": true,
+      "weights_obtainable": false,
+      "memory_feasibility": "MARGINAL_REQUIRES_QUANTIZATION",
+      "load_status": "FAILED",
+      "generation_status": "NOT_ATTEMPTED",
+      "failure_reason": "DOWNLOAD_BLOCKED: Connection timed out or gated access prevented weight retrieval."
+    }
+  },
+  "total_generation_events": 0
+}

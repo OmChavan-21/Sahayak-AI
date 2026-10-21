@@ -1,0 +1,1 @@
+{"finding_id": "F-SPLIT-OVERLAP", "severity": "CRITICAL", "category": "CONTAMINATION", "example_id": "MULTIPLE", "description": "Found 239 overlapping keys between splits.", "expected_behavior": "Zero overlap", "actual_behavior": "Contamination detected", "recommendation": "Split properly by template family, not randomized flat array."}

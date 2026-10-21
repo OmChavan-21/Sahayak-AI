@@ -1,0 +1,14 @@
+[
+  {
+    "model": "Qwen/Qwen3-4B",
+    "failure_type": "CUDA_FAILURE",
+    "reason": "GPU environment unavailable",
+    "timestamp": "2026-09-18T14:26:09.829028"
+  },
+  {
+    "model": "microsoft/Phi-4-mini",
+    "failure_type": "CUDA_FAILURE",
+    "reason": "GPU environment unavailable",
+    "timestamp": "2026-09-18T14:26:09.829028"
+  }
+]

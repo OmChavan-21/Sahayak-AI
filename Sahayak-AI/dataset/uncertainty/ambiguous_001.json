@@ -1,0 +1,21 @@
+{
+  "input_context": {
+    "task": "ASSESS_SECURITY",
+    "security_context": {
+      "deterministic_risk_level": "UNKNOWN",
+      "security_indicators": []
+    },
+    "observed_evidence": [],
+    "untrusted_content": "Hey, it's me. Can you send the file?",
+    "trust_level": "LEVEL_0_UNTRUSTED_EXTERNAL"
+  },
+  "expected_output": {
+    "assessment": "The content is ambiguous and lacks context to determine safety.",
+    "explanation": "There are no strong indicators of phishing or danger, but the sender's identity cannot be verified from the text alone.",
+    "evidence_references": [],
+    "confidence": "UNABLE_TO_DETERMINE",
+    "recommended_next_step": "Verify the identity of the sender through another trusted channel before sharing files.",
+    "requested_capability": null,
+    "capability_reason": null
+  }
+}

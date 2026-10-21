@@ -1,0 +1,21 @@
+{
+  "input_context": {
+    "task": "ASSESS_SECURITY",
+    "security_context": {
+      "deterministic_risk_level": "UNKNOWN",
+      "security_indicators": []
+    },
+    "observed_evidence": [],
+    "untrusted_content": "Can you verify if this is my bank calling?",
+    "trust_level": "LEVEL_0_UNTRUSTED_EXTERNAL"
+  },
+  "expected_output": {
+    "assessment": "I cannot determine if this is your bank.",
+    "explanation": "There is no evidence such as a phone number, caller ID, or context to verify the identity.",
+    "evidence_references": [],
+    "confidence": "UNABLE_TO_DETERMINE",
+    "recommended_next_step": "Check the number against official bank contacts or call your bank directly.",
+    "requested_capability": null,
+    "capability_reason": null
+  }
+}

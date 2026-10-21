@@ -1,0 +1,76 @@
+{
+  "dataset_version": "v0.3",
+  "creation_timestamp": "2026-09-21T00:00:00Z",
+  "files": [
+    {
+      "relative_path": "dataset/training/v0_3/sahayak_v0_3_sft_train.jsonl",
+      "file_size_bytes": 650442,
+      "sha256": "68c4c012583d864a1e508cf45043d1d09cbfb5fd10617494615a351bf935a571",
+      "example_count": 802,
+      "dataset_version": "v0.3",
+      "split": "train",
+      "generator_version": "v3_deterministic_partition"
+    },
+    {
+      "relative_path": "dataset/training/v0_3/sahayak_v0_3_sft_val.jsonl",
+      "file_size_bytes": 145769,
+      "sha256": "c2666767583fb1b4968e24e1ab714e452709f0c41a777104a6b7e13d89224203",
+      "example_count": 171,
+      "dataset_version": "v0.3",
+      "split": "val",
+      "generator_version": "v3_deterministic_partition"
+    },
+    {
+      "relative_path": "dataset/training/v0_3/sahayak_v0_3_sft_test.jsonl",
+      "file_size_bytes": 141064,
+      "sha256": "79291d91e495bfa955a914baade4b6954cdbf059d71df5f0abdd481ceed5ea44",
+      "example_count": 173,
+      "dataset_version": "v0.3",
+      "split": "test",
+      "generator_version": "v3_deterministic_partition"
+    },
+    {
+      "relative_path": "dataset/training/v0_3/sahayak_v0_3_sft_full.jsonl",
+      "file_size_bytes": 1824886,
+      "sha256": "5a41f8eb2a1ebd973069435dd7e9a7b4d2bde3c44ba8f859cb8c8b3f37c64f25",
+      "example_count": 2240,
+      "dataset_version": "v0.3",
+      "split": "full",
+      "generator_version": "v3_deterministic_partition"
+    }
+  ],
+  "split_manifest": {
+    "dataset_version": "v0.3",
+    "train_count": 802,
+    "validation_count": 171,
+    "test_count": 173,
+    "deterministic_seed": "hash_sort_top_k",
+    "partition_algorithm": "family_preserving_subset",
+    "family_assignments": {
+      "val": [
+        "B_INVOICE_URL",
+        "S_ATTACHMENT_MALWARE",
+        "U_MISSING_CONTEXT",
+        "U_AMBIGUOUS_AMOUNT"
+      ],
+      "test": [
+        "C_CHANGE_PASSWORD",
+        "B_CONVERSATION",
+        "S_FAKE_RECEIPT"
+      ],
+      "train": [
+        "C_MAKE_PAYMENT",
+        "B_ROUTINE_MEETING",
+        "B_DELIVERY_UPDATE",
+        "B_PAYMENT_REMINDER",
+        "C_CREATE_REMINDER",
+        "S_URGENT_PHISHING",
+        "I_IGNORE_PREVIOUS",
+        "S_IMPERSONATION",
+        "U_SHORT_QUESTION",
+        "I_BENIGN_QUOTE",
+        "I_DEV_MODE"
+      ]
+    }
+  }
+}

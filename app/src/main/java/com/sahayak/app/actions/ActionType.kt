@@ -1,0 +1,15 @@
+package com.sahayak.app.actions
+
+enum class ActionType {
+    EXPLAIN,
+    HIGHLIGHT_EVIDENCE,
+    CREATE_DRAFT,
+    CREATE_REMINDER,
+    SHARE_INFORMATION,
+    SEND_MESSAGE,
+    SUBMIT_COMPLAINT,
+    MAKE_PAYMENT,
+    CHANGE_ACCOUNT_INFORMATION,
+    INSPECT_URL,
+    UNKNOWN
+}

@@ -1,0 +1,66 @@
+{
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+    "compute_capability": "sm_120",
+    "vram_gb": 7.96,
+    "system_ram_gb": 15.26
+  },
+  "dataset": {
+    "version": "v0.3",
+    "total": 2240,
+    "train": 802,
+    "validation": 171,
+    "test": 173,
+    "family_separation": "PASSED",
+    "split_integrity": "PASSED",
+    "sha256_manifest": "COMPLETE"
+  },
+  "models": {
+    "Qwen3-4B": {
+      "local_weights": "PRESENT",
+      "identity": "VERIFIED",
+      "generation": "VERIFIED",
+      "modified": false,
+      "parameter_count_estimate": 4022458880,
+      "qlora_compatible": true
+    },
+    "Phi-4-mini": {
+      "local_weights": "MISSING",
+      "generation": "NOT VERIFIED"
+    }
+  },
+  "training_methods": {
+    "FULL": {
+      "status": "BLOCKED",
+      "reason": "Insufficient VRAM (requires > 46 GB) and System RAM (requires > 32 GB)"
+    },
+    "LORA": {
+      "status": "BLOCKED",
+      "reason": "Insufficient VRAM (requires ~14.5 GB)"
+    },
+    "QLORA": {
+      "status": "BLOCKED",
+      "reason": "Insufficient System RAM (requires > 16.0 GB for model initialization)"
+    }
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "pytorch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "transformers": "5.17.0",
+    "peft": "MISSING",
+    "bitsandbytes": "MISSING",
+    "accelerate": "1.15.0",
+    "execution_lock": "ACTIVE"
+  },
+  "blockers": [
+    "System RAM (15.26 GB) fails the minimum safety threshold (16.0 GB) for QLoRA.",
+    "Required dependencies (peft, bitsandbytes) are missing from the runtime environment."
+  ],
+  "prerequisites": [
+    "Resolution of the RAM hardware gate.",
+    "Installation and verification of peft and bitsandbytes.",
+    "Explicit SAHAYAK_ALLOW_TRAINING_EXECUTION authorization."
+  ],
+  "training_executed": false
+}

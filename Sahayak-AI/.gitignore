@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+*venv*/
+.venv/
+venv/
+gpu_venv/
+gpu_venv_compatible/
+gpu_venv_sm120/
+
+# Model Weights
+models/incoming/
+models/verified/
+*.safetensors
+*.bin
+*.pt

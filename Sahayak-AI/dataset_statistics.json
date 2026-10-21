@@ -1,0 +1,34 @@
+{
+  "total_examples": 39,
+  "by_category": {
+    "SUGGEST_SAFE_NEXT_STEP": 24,
+    "ASSESS_SECURITY": 14,
+    "EXPLAIN_CONTENT": 1
+  },
+  "by_confidence": {
+    "HIGH_CONFIDENCE": 35,
+    "UNABLE_TO_DETERMINE": 4
+  },
+  "by_trust_level": {
+    "LEVEL_0_UNTRUSTED_EXTERNAL": 38,
+    "LEVEL_2_SYSTEM_VERIFIED": 1
+  },
+  "by_requested_capability": {
+    "INSPECT_URL": 6
+  },
+  "by_assessment_risk": {},
+  "by_language": {
+    "English": 39
+  },
+  "benign_vs_suspicious": {
+    "benign": 33,
+    "suspicious": 6
+  },
+  "evidence_grounding_failures": 0,
+  "contract_violations": 117,
+  "duplicate_count": 0,
+  "near_duplicate_count": 0,
+  "prompt_injection_count": 2,
+  "refusal_count": 24,
+  "uncertainty_count": 4
+}

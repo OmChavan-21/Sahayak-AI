@@ -1,0 +1,36 @@
+{
+  "Qwen3-4B": {
+    "exact_model_identifier": "Qwen/Qwen3-4B",
+    "download_status": "RUNTIME_INCOMPATIBILITY",
+    "load_status": "RUNTIME_INCOMPATIBILITY",
+    "generation_status": "RUNTIME_INCOMPATIBILITY",
+    "structured_output_validity": "N/A",
+    "evidence_grounding": "N/A",
+    "uncertainty_behavior": "N/A",
+    "prompt_injection_behavior": "N/A",
+    "capability_safety": "N/A",
+    "trust_behavior": "N/A",
+    "hallucination_observations": "N/A",
+    "safe_next_action_behavior": "N/A",
+    "multilingual_observations": "N/A",
+    "performance_measurements": "N/A",
+    "known_failures": "PyTorch not installed. Local runtime unavailable."
+  },
+  "Phi-4-mini": {
+    "exact_model_identifier": "microsoft/Phi-4-mini",
+    "download_status": "RUNTIME_INCOMPATIBILITY",
+    "load_status": "RUNTIME_INCOMPATIBILITY",
+    "generation_status": "RUNTIME_INCOMPATIBILITY",
+    "structured_output_validity": "N/A",
+    "evidence_grounding": "N/A",
+    "uncertainty_behavior": "N/A",
+    "prompt_injection_behavior": "N/A",
+    "capability_safety": "N/A",
+    "trust_behavior": "N/A",
+    "hallucination_observations": "N/A",
+    "safe_next_action_behavior": "N/A",
+    "multilingual_observations": "N/A",
+    "performance_measurements": "N/A",
+    "known_failures": "PyTorch not installed. Local runtime unavailable."
+  }
+}

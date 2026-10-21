@@ -1,0 +1,22 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "test_id": "ALL_TESTS",
+    "input_category": "ALL",
+    "expected_behavior": "Download model weights and evaluate Sahayak schemas.",
+    "actual_output": "Hugging Face LFS (safetensors) download timed out/blocked at 0 bytes.",
+    "failure_category": "NETWORK_LFS_BLOCK",
+    "severity": "CRITICAL",
+    "could_be_fixed_by_finetuning": false
+  },
+  {
+    "model": "microsoft/Phi-4-mini-instruct",
+    "test_id": "ALL_TESTS",
+    "input_category": "ALL",
+    "expected_behavior": "Download model weights and evaluate Sahayak schemas.",
+    "actual_output": "Hugging Face LFS (safetensors) download timed out/blocked at 0 bytes.",
+    "failure_category": "NETWORK_LFS_BLOCK",
+    "severity": "CRITICAL",
+    "could_be_fixed_by_finetuning": false
+  }
+]

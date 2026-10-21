@@ -1,0 +1,50 @@
+# Android & Gradle
+*.iml
+.gradle/
+local.properties
+/local.properties
+.idea/
+/.idea/
+.DS_Store
+build/
+/build/
+app/build/
+*/build/
+captures/
+/captures
+.externalNativeBuild/
+.externalNativeBuild
+.cxx/
+.cxx
+jdk.zip
+
+# Python Virtual Environments
+*venv*/
+.venv/
+venv/
+gpu_venv/
+gpu_venv_compatible/
+gpu_venv_sm120/
+Sahayak-AI/*venv*/
+Sahayak-AI/.venv/
+Sahayak-AI/venv/
+Sahayak-AI/gpu_venv*/
+
+# Large Model Weights (>100MB)
+models/incoming/
+models/verified/
+Sahayak-AI/models/incoming/
+Sahayak-AI/models/verified/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Python caches & build artifacts
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/

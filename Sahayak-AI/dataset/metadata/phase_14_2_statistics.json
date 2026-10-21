@@ -1,0 +1,32 @@
+{
+  "total_examples": 1146,
+  "by_category": {
+    "EXPLAIN_CONTENT": 382,
+    "SUGGEST_SAFE_NEXT_STEP": 382,
+    "ASSESS_SECURITY": 382
+  },
+  "by_confidence": {
+    "HIGH_CONFIDENCE": 1128,
+    "UNABLE_TO_DETERMINE": 18
+  },
+  "by_requested_capability": {
+    "INSPECT_URL": 60
+  },
+  "by_assessment_risk": {},
+  "by_language": {
+    "English": 690,
+    "Marathi": 144,
+    "En-Hi-CodeMix": 156,
+    "Hindi": 156
+  },
+  "benign_vs_suspicious": {
+    "benign": 1086,
+    "suspicious": 60
+  },
+  "evidence_grounding_failures": 0,
+  "contract_violations": 0,
+  "duplicate_count": 786,
+  "prompt_injection_count": 12,
+  "refusal_count": 48,
+  "uncertainty_count": 18
+}

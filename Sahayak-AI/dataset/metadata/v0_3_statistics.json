@@ -1,0 +1,86 @@
+{
+  "total_examples": 2240,
+  "split_counts": {
+    "train": 1968,
+    "val": 132,
+    "test": 140
+  },
+  "by_family": {
+    "C_MAKE_PAYMENT": 300,
+    "B_ROUTINE_MEETING": 320,
+    "B_DELIVERY_UPDATE": 360,
+    "B_PAYMENT_REMINDER": 240,
+    "C_CREATE_REMINDER": 128,
+    "S_URGENT_PHISHING": 192,
+    "I_IGNORE_PREVIOUS": 12,
+    "S_IMPERSONATION": 240,
+    "S_FAKE_RECEIPT": 144,
+    "U_SHORT_QUESTION": 16,
+    "I_BENIGN_QUOTE": 16,
+    "B_INVOICE_URL": 48,
+    "S_ATTACHMENT_MALWARE": 60,
+    "U_MISSING_CONTEXT": 16,
+    "I_DEV_MODE": 8,
+    "C_CHANGE_PASSWORD": 32,
+    "U_AMBIGUOUS_AMOUNT": 48,
+    "B_CONVERSATION": 60
+  },
+  "by_template": {
+    "C_MAKE_PAYMENT_TPL": 300,
+    "B_ROUTINE_MEETING_TPL": 320,
+    "B_DELIVERY_UPDATE_TPL": 360,
+    "B_PAYMENT_REMINDER_TPL": 240,
+    "C_CREATE_REMINDER_TPL": 128,
+    "S_URGENT_PHISHING_TPL": 192,
+    "I_IGNORE_PREVIOUS_TPL": 12,
+    "S_IMPERSONATION_TPL": 240,
+    "S_FAKE_RECEIPT_TPL": 144,
+    "U_SHORT_QUESTION_TPL": 16,
+    "I_BENIGN_QUOTE_TPL": 16,
+    "B_INVOICE_URL_TPL": 48,
+    "S_ATTACHMENT_MALWARE_TPL": 60,
+    "U_MISSING_CONTEXT_TPL": 16,
+    "I_DEV_MODE_TPL": 8,
+    "C_CHANGE_PASSWORD_TPL": 32,
+    "U_AMBIGUOUS_AMOUNT_TPL": 48,
+    "B_CONVERSATION_TPL": 60
+  },
+  "by_category": {
+    "ASSESS_SECURITY": 560,
+    "SUMMARIZE_EVIDENCE": 560,
+    "EXPLAIN_CONTENT": 560,
+    "SUGGEST_SAFE_NEXT_STEP": 560
+  },
+  "by_confidence": {
+    "HIGH_CONFIDENCE": 2160,
+    "UNABLE_TO_DETERMINE": 80
+  },
+  "by_requested_capability": {
+    "CREATE_REMINDER": 128,
+    "INSPECT_URL": 192
+  },
+  "by_language": {
+    "English": 1504,
+    "Hindi": 396,
+    "Marathi": 200,
+    "En-Hi-CodeMix": 140
+  },
+  "by_content_type": {
+    "chat_message": 1088,
+    "delivery_notice": 360,
+    "account_warning": 432,
+    "invoice": 192,
+    "conversation": 92,
+    "email": 76
+  },
+  "benign_vs_suspicious": {
+    "benign": 1908,
+    "suspicious": 252,
+    "ambiguous": 80
+  },
+  "duplicate_count": 0,
+  "normalized_duplicate_count": 0,
+  "family_overlap": 0,
+  "template_overlap": 0,
+  "train_val_test_overlaps": 0
+}

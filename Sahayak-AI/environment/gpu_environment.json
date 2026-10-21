@@ -1,0 +1,23 @@
+{
+  "os": "Windows",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\opencode\\1\\Sahayak OS\\Sahayak-AI\\gpu_venv\\Scripts\\python.exe",
+  "virtual_env": "C:\\opencode\\1\\Sahayak OS\\Sahayak-AI\\gpu_venv",
+  "pytorch": {
+    "installed": true,
+    "version": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "gpu_name": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "transformers": {
+    "installed": true,
+    "version": "5.17.0"
+  },
+  "accelerate": {
+    "installed": true,
+    "version": "1.15.0"
+  },
+  "nvidia_driver_version": "591.91",
+  "gpu_vram_total_mb": "8151"
+}

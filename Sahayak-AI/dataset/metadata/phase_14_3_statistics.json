@@ -1,0 +1,50 @@
+{
+  "total_examples": 1146,
+  "split_counts": {
+    "train": 800,
+    "val": 170,
+    "test": 176
+  },
+  "by_category": {
+    "EXPLAIN_CONTENT": 382,
+    "SUGGEST_SAFE_NEXT_STEP": 382,
+    "ASSESS_SECURITY": 382
+  },
+  "by_confidence": {
+    "HIGH_CONFIDENCE": 1128,
+    "UNABLE_TO_DETERMINE": 18
+  },
+  "by_requested_capability": {
+    "INSPECT_URL": 60
+  },
+  "by_language": {
+    "English": 690,
+    "Marathi": 144,
+    "En-Hi-CodeMix": 156,
+    "Hindi": 156
+  },
+  "by_content_type": {
+    "benign_notice": 180,
+    "phishing_url": 60
+  },
+  "benign_vs_suspicious": {
+    "benign": 1068,
+    "suspicious": 60,
+    "ambiguous": 18
+  },
+  "contract_violations": 0,
+  "trust_violations": 0,
+  "capability_violations": 0,
+  "evidence_grounding_failures": 0,
+  "prompt_injection_failures": 0,
+  "safe_next_action_failures": 0,
+  "duplicate_count": 786,
+  "train_val_test_overlaps": 239,
+  "sensitive_data_findings": 0,
+  "reproducibility": {
+    "v0_2_train_hash": "c6010e059f483987af76ac7031f0b24dbf2ceab6cafd90424f42b96e0f634cb0",
+    "v0_2_val_hash": "2852a00b911d33a4a48ebb345cec4685847c8757fa2e7855e0573bbb852059d1",
+    "v0_2_test_hash": "04219db87c1f6705692e146f0b9f65bea239d9a068dd67792ca155aa2c94506b",
+    "v0_1_intact": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "os": "Windows",
+  "python_version": "3.14.7",
+  "pytorch_version": "NOT_INSTALLED",
+  "transformers_version": "NOT_INSTALLED",
+  "cuda_available": false,
+  "cuda_version": "N/A",
+  "gpu_name": "N/A",
+  "gpu_vram": "N/A",
+  "system_ram": "N/A",
+  "cpu": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD"
+}

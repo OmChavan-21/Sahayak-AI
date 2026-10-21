@@ -1,0 +1,32 @@
+{
+  "input_context": {
+    "task": "ASSESS_SECURITY",
+    "security_context": {
+      "deterministic_risk_level": "HIGH_RISK",
+      "security_indicators": [
+        "urgency",
+        "suspicious_url"
+      ]
+    },
+    "observed_evidence": [
+      {
+        "type": "URL",
+        "value": "http://verify-now-bank.com"
+      }
+    ],
+    "untrusted_content": "URGENT: Your account will be suspended. Verify now: http://verify-now-bank.com",
+    "trust_level": "LEVEL_0_UNTRUSTED_EXTERNAL"
+  },
+  "expected_output": {
+    "assessment": "This is a highly suspicious message resembling a phishing attack.",
+    "explanation": "The message uses urgency and points to an unverified HTTP URL to pressure you into revealing credentials.",
+    "evidence_references": [
+      "URGENT",
+      "http://verify-now-bank.com"
+    ],
+    "confidence": "HIGH_CONFIDENCE",
+    "recommended_next_step": "Do not click the link. Delete this message.",
+    "requested_capability": "INSPECT_URL",
+    "capability_reason": "Inspect the URL to gather evidence on whether it hosts a phishing login page."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "files_verified": true,
+  "file_verification_msg": "Verified",
+  "environment": {
+    "python_version": "3.12.10",
+    "pytorch_version": "2.6.0+cu124",
+    "transformers_version": "5.17.0",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "gpu_name": "NVIDIA GeForce RTX 5050 Laptop GPU",
+    "gpu_vram_gb": 7.96
+  },
+  "smoke_test": "FAILED (Generation): CUDA error: no kernel image is available for execution on the device\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+}

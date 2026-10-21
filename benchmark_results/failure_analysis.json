@@ -1,0 +1,14 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "status": "FAILED",
+    "reason": "Dependency missing: No module named 'torch'. Cannot run inference locally.",
+    "hardware_limitation": true
+  },
+  {
+    "model": "microsoft/Phi-4-mini-instruct",
+    "status": "FAILED",
+    "reason": "Dependency missing: No module named 'torch'. Cannot run inference locally.",
+    "hardware_limitation": true
+  }
+]

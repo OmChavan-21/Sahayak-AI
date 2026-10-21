@@ -1,0 +1,13 @@
+{
+  "folder_name": "microsoft-Phi-4-mini",
+  "import_timestamp": "2026-09-18T20:28:04.614875",
+  "files": {
+    "config.json": {
+      "size": 41,
+      "sha256": "ffb3f56da6e80b23872e11a6a04ae6a082bee0c929f29639931cd80b1087b3af",
+      "official_hash": "UNAVAILABLE"
+    }
+  },
+  "verification_status": "REJECTED_UNRELATED_MODEL",
+  "destination_path": "Sahayak-AI\\models\\rejected\\microsoft-Phi-4-mini"
+}

@@ -1,0 +1,16 @@
+{
+  "microsoft-Phi-4-mini": {
+    "folder_name": "microsoft-Phi-4-mini",
+    "import_timestamp": "2026-09-18T21:45:17.648013",
+    "files": {},
+    "identity_status": "IDENTITY_UNVERIFIED"
+  },
+  "Qwen/Qwen3-4B": {
+    "folder_name": "Qwen3-4B",
+    "import_timestamp": "2026-09-18T21:45:17.648929",
+    "files": {},
+    "identity_status": "IDENTITY_VERIFIED",
+    "canonical_model_identifier": "Qwen/Qwen3-4B",
+    "destination_path": "Sahayak-AI\\models\\verified\\Qwen\\Qwen3-4B"
+  }
+}

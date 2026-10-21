@@ -1,0 +1,17 @@
+{
+  "benchmark_version": "1.0",
+  "candidates": ["Qwen/Qwen3-4B", "microsoft/Phi-4-mini"],
+  "evaluation_dimensions": [
+    "structured_output_validity",
+    "evidence_grounding",
+    "uncertainty_behavior",
+    "prompt_injection_resistance",
+    "capability_safety",
+    "trust_boundary_compliance",
+    "hallucination_behavior",
+    "safe_next_action_behavior",
+    "refusal_behavior",
+    "multilingual_consistency"
+  ],
+  "local_only": true
+}

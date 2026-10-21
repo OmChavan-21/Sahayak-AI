@@ -1,0 +1,14 @@
+{
+  "Qwen/Qwen2.5-3B-Instruct": {
+    "status": "SUCCESS",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "results": [],
+    "avg_latency": 0
+  },
+  "microsoft/Phi-4-mini-instruct": {
+    "status": "SUCCESS",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "results": [],
+    "avg_latency": 0
+  }
+}

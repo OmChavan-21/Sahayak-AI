@@ -1,0 +1,153 @@
+{
+  "folder_name": "Qwen3-4B",
+  "import_timestamp": "2026-09-18T21:42:44.977933",
+  "files": {
+    ".gitattributes": {
+      "size": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+      "official_hash": "UNAVAILABLE"
+    },
+    "config.json": {
+      "size": 726,
+      "sha256": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a",
+      "official_hash": "UNAVAILABLE"
+    },
+    "generation_config.json": {
+      "size": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "official_hash": "UNAVAILABLE"
+    },
+    "LICENSE": {
+      "size": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "official_hash": "UNAVAILABLE"
+    },
+    "merges.txt": {
+      "size": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "official_hash": "UNAVAILABLE"
+    },
+    "model-00001-of-00003.safetensors": {
+      "size": 3957900840,
+      "sha256": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223",
+      "official_hash": "UNAVAILABLE"
+    },
+    "model-00002-of-00003.safetensors": {
+      "size": 3987450520,
+      "sha256": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5",
+      "official_hash": "UNAVAILABLE"
+    },
+    "model-00003-of-00003.safetensors": {
+      "size": 99630640,
+      "sha256": "e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1",
+      "official_hash": "UNAVAILABLE"
+    },
+    "model.safetensors.index.json": {
+      "size": 32819,
+      "sha256": "6dc0981b8829fead746441f68f38f24c5ca4a3a66351f652c26c6df0efc43ab2",
+      "official_hash": "UNAVAILABLE"
+    },
+    "README.md": {
+      "size": 16857,
+      "sha256": "71add1cd091c309b1cb1a6b943f2476eb2b004124b3bd1d32dcd0b24cc1abc47",
+      "official_hash": "UNAVAILABLE"
+    },
+    "tokenizer.json": {
+      "size": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "official_hash": "UNAVAILABLE"
+    },
+    "tokenizer_config.json": {
+      "size": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "official_hash": "UNAVAILABLE"
+    },
+    "vocab.json": {
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/.gitignore": {
+      "size": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/CACHEDIR.TAG": {
+      "size": 195,
+      "sha256": "e8893e2dcb3f4545ef67a0a5b7b769113d38eef1aa61c7c7ba14659b02af955f",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/.gitattributes.metadata": {
+      "size": 103,
+      "sha256": "437d1e21e557b3e0c71c768a66ddc80ca9bc4dc6aa9c2733c405a71dcef0fad0",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/config.json.metadata": {
+      "size": 104,
+      "sha256": "aa503dadbbb0a0d66680712576311f4ba1f5fc9d4d18b697139f95102e12da0d",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/generation_config.json.metadata": {
+      "size": 104,
+      "sha256": "54f8a157fb3751d6f63b657a786948dafef6fcd0f3f0c9832af6abc90fc8b619",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/LICENSE.metadata": {
+      "size": 104,
+      "sha256": "bd47b8934427f91672333efd8dc060c682f9c78674cf3881ff1c7a7aad1758d6",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/merges.txt.metadata": {
+      "size": 104,
+      "sha256": "680d3ce442970e3a31af5d8bc1b3a8486951514fe86d2e927d333f02255a3ae6",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/model-00001-of-00003.safetensors.metadata": {
+      "size": 128,
+      "sha256": "1b77bde3ef1ecc440e7a7f86134684710f4743f3f79a53c947bd6874fe78490d",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/model-00002-of-00003.safetensors.metadata": {
+      "size": 128,
+      "sha256": "ffd51bd66fa31dc2a8a1cbc239784737df59dfbe3bc27000eb929852610aaa86",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/model-00003-of-00003.safetensors.metadata": {
+      "size": 128,
+      "sha256": "b82556be5797964faf63b3af8a1e01efd56fa4189e32e4c45f75409ea6bef304",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/model.safetensors.index.json.metadata": {
+      "size": 103,
+      "sha256": "cfd56d4675e196cc7a808706323fa0501cde7bbd0e859a8f1cc6b2a5a769724d",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/README.md.metadata": {
+      "size": 104,
+      "sha256": "be0417832c1739220629eb7c28da72c57866f6288388b15d84c907926d1a424c",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/tokenizer.json.metadata": {
+      "size": 128,
+      "sha256": "8692fd607539ae5a35d096bc1114a730cb93da20a7b131398472c40ac46bd94c",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/tokenizer_config.json.metadata": {
+      "size": 104,
+      "sha256": "9390aade3ca055720ad9f8069a4e08dffdc6f37e54ea8f6fd37f4d726b4a4620",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/download/vocab.json.metadata": {
+      "size": 104,
+      "sha256": "8d7a4ef9a014466811fcd035d266c50ed6c72f93cf7c0511a8567693ffd4014e",
+      "official_hash": "UNAVAILABLE"
+    },
+    ".cache/huggingface/trees/1cfa9a7208912126459214e8b04321603b3df60c.json": {
+      "size": 2283,
+      "sha256": "074d92135ba1c02561df48534929e26674e15a68d4e64581f2fea928d6fda062",
+      "official_hash": "UNAVAILABLE"
+    }
+  },
+  "verification_status": "REJECTED_UNRELATED_MODEL",
+  "destination_path": "Sahayak-AI\\models\\rejected\\Qwen3-4B"
+}

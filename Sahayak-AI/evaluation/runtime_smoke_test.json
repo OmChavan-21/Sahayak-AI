@@ -1,0 +1,16 @@
+{
+  "model_identifier": "sshleifer/tiny-gpt2",
+  "model_revision": "main",
+  "runtime": "PyTorch 2.14.0+cpu",
+  "device": "cpu",
+  "input_hash": "365b1b410aed4073f4cb3eb3243da2046c93051b96c16381f600651db1b0cb84",
+  "output_hash": "5a6d0d53f7660d7adc28c029b4205e25763368320b4e70368316241452b329c6",
+  "output_token_count": 12,
+  "generation_parameters": {
+    "max_new_tokens": 5,
+    "do_sample": false
+  },
+  "latency_seconds": 7.30841851234436,
+  "timestamp": "2026-09-18T14:13:30.411516",
+  "environment_identifier": "LAPTOP-L750NK9A"
+}
